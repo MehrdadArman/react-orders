@@ -1,0 +1,101 @@
+{
+  "orders": [
+    {
+      "id": "1",
+      "customerId": "1",
+      "items": [
+        {
+          "productId": "B101",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "total": 4.99
+        },
+        {
+          "productId": "A102",
+          "quantity": 1,
+          "unitPrice": 49.5,
+          "total": 49.5
+        }
+      ],
+      "total": 54.49
+    },
+    {
+      "id": "2",
+      "customerId": "2",
+      "items": [
+        {
+          "productId": "A102",
+          "quantity": 1,
+          "unitPrice": 49.5,
+          "total": 49.5
+        }
+      ],
+      "total": 49.5
+    },
+    {
+      "id": "3",
+      "customerId": "3",
+      "items": [
+        {
+          "productId": "B101",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "total": 9.98
+        }
+      ],
+      "total": 9.98
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "Coca Cola",
+      "since": "2014-06-28",
+      "revenue": "492.12"
+    },
+    {
+      "id": "2",
+      "name": "Teamleader",
+      "since": "2015-01-15",
+      "revenue": "1505.95"
+    },
+    {
+      "id": "3",
+      "name": "Jeroen De Wit",
+      "since": "2016-02-11",
+      "revenue": "0.00"
+    }
+  ],
+  "products": [
+    {
+      "id": "A101",
+      "description": "Screwdriver",
+      "category": "1",
+      "price": 9.75
+    },
+    {
+      "id": "A102",
+      "description": "Electric screwdriver",
+      "category": "1",
+      "price": 49.5
+    },
+    {
+      "id": "B101",
+      "description": "Basic on-off switch",
+      "category": "2",
+      "price": 4.99
+    },
+    {
+      "id": "B102",
+      "description": "Press button",
+      "category": "2",
+      "price": 4.99
+    },
+    {
+      "id": "B103",
+      "description": "Switch with motion detector",
+      "category": "2",
+      "price": 12.95
+    }
+  ]
+}
